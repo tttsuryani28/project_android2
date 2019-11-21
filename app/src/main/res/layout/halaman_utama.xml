@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/user"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="160dp"
+        android:background="#ffff"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ms1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Museum"
+        android:textSize="30dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"/>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="17dp"
+        app:srcCompat="@drawable/ms1" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="130dp"
+        app:srcCompat="@drawable/ms1"
+        android:layout_marginTop="-70dp"/>
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="242dp"
+        app:srcCompat="@drawable/ms1"
+        android:layout_marginTop="-70dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Pameran"
+        android:textSize="30dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"/>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="17dp"
+        app:srcCompat="@drawable/ms1" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="130dp"
+        app:srcCompat="@drawable/ms1"
+        android:layout_marginTop="-70dp"/>
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="242dp"
+        app:srcCompat="@drawable/ms1"
+        android:layout_marginTop="-70dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Koleksi"
+        android:textSize="30dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"/>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="17dp"
+        app:srcCompat="@drawable/ms1" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="130dp"
+        app:srcCompat="@drawable/ms1"
+        android:layout_marginTop="-70dp"/>
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="242dp"
+        app:srcCompat="@drawable/ms1"
+        android:layout_marginTop="-70dp"/>
+
+</LinearLayout>

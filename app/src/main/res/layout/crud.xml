@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/user"
+        tools:layout_editor_absoluteX="345dp"
+        tools:layout_editor_absoluteY="16dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/arrow"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:background="#FD8165"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="115dp">
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="130dp"
+            android:background="#fff"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="DATA MUSEUM"
+                android:textColor="#FD8165"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-120dp"
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:text="Insert"
+            android:textColor="#FD8165"
+            android:layout_marginStart="-150dp"
+            android:layout_marginTop="180dp"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:text="Update"
+            android:textColor="#FD8165"
+            android:layout_marginStart="-100dp"
+            android:layout_marginTop="250dp"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:textColor="#FD8165"
+            android:text="Delete"
+            android:layout_marginStart="-100dp"
+            android:layout_marginTop="320dp"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:text="Read"
+            android:textColor="#FD8165"
+            android:layout_marginStart="-100dp"
+            android:layout_marginTop="390dp"/>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
